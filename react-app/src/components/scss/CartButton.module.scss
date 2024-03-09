@@ -1,0 +1,17 @@
+.cart {
+    display: flex;
+
+    .productNumber {
+        background-color: red;
+        width: 18px;
+        height: 18px;
+        border-radius: 100px;
+        border: 1px black solid;
+        text-align: center;
+    }
+    
+    svg {
+        width: 40px;
+    }
+
+}

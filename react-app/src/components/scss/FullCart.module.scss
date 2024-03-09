@@ -1,0 +1,42 @@
+.FullCart {
+    max-width: 800px;
+    margin: 0 auto;
+    position: absolute;
+    right: 5%;
+    top: 16%;
+    border: 1px solid #555;
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+  
+      th, td {
+        padding: 10px;
+        text-align: left;
+        padding: 10px 35px;
+        font-weight: bold;
+      }
+  
+      thead {
+        background-color: #555;
+        color: #fff;
+      }
+
+      tbody, tfoot {
+        background-color: white;
+        color: black;
+      }
+  
+      img {
+        max-width: 50px;
+        max-height: 50px;
+        object-fit: cover;
+      }
+  
+      input[type="number"] {
+        width: 50px;
+        padding: 5px;
+        text-align: center;
+      }
+    }
+  }

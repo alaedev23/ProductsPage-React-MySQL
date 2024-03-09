@@ -1,0 +1,12 @@
+.content {
+    margin-left: 20%;
+    margin-right: 5%;
+  
+    .productContent {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+  
+    }
+  }
+  

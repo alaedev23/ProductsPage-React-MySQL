@@ -1,0 +1,22 @@
+.mainMenu {
+    padding: 20px;
+    background-color: #4B6677;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+    nav {
+        ul {
+            display: flex;
+            list-style-type: none;
+            font-size: 18px;
+            padding: 0px;
+
+            li {
+                margin-right: 20px;
+            }
+        }
+
+    }
+
+}
